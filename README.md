@@ -10,6 +10,8 @@ It simulates real-world login activity, detects suspicious behavior, identifies 
 This project demonstrates how raw logs can be transformed into **actionable security intelligence**.
 
 ---
+🌐 Live Demo:
+https://cybersecurity-monitoring-system-2trgps2gao2qqsfxaguq9r.streamlit.app/
 
 ## 🎯 Key Features
 
