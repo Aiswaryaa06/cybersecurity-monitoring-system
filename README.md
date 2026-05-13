@@ -67,21 +67,21 @@ High frequency login attempts
 Logs grouped into time windows
 Rolling analysis detects spikes in failed logins
 
-monitoring-system/
-│
-├── app/
-│   ├── dashboard.py
-│   ├── data_generator.py
-│
-├── detector.py
-├── data/
-│   ├── logs.csv
-│   ├── incidents.csv
-│
-├── requirements.txt
-├── README.md
+<img width="347" height="354" alt="image" src="https://github.com/user-attachments/assets/c01cd06f-af7b-4639-811d-0c40382ff30e" />
+
+
 
 📸 Dashboard Preview
+<img width="1915" height="924" alt="image" src="https://github.com/user-attachments/assets/bac4b326-e42c-489c-a198-70e6efc1f2cd" />
+<img width="1090" height="831" alt="image" src="https://github.com/user-attachments/assets/682d0c19-3d0d-4071-92bb-b1f4d89a59d7" />
+<img width="1218" height="673" alt="image" src="https://github.com/user-attachments/assets/9b8c37af-4152-4e00-b396-eb994c7f695a" />
+<img width="1315" height="686" alt="image" src="https://github.com/user-attachments/assets/af7998df-3ff9-4308-8a48-6c7c610af46a" />
+<img width="1157" height="744" alt="image" src="https://github.com/user-attachments/assets/670a3347-47f7-4efd-adf1-1a48c10287d3" />
+<img width="1062" height="517" alt="image" src="https://github.com/user-attachments/assets/6e6a9e17-72c9-493f-b563-bcbc41d45293" />
+
+
+
+
 
 
 
