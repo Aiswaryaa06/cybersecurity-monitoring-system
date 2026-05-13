@@ -54,4 +54,59 @@ This project demonstrates how raw logs can be transformed into **actionable secu
 | Plotly | Data visualization |
 | Faker | Fake log generation |
 
----
+📊 Detection Logic
+🚨 Brute Force Detection
+A user is flagged if:
+Failed login attempts ≥ 3
+
+🌐 IP Anomaly Detection
+Multiple failed logins from same IP
+High frequency login attempts
+
+⏱ Attack Burst Detection
+Logs grouped into time windows
+Rolling analysis detects spikes in failed logins
+
+monitoring-system/
+│
+├── app/
+│   ├── dashboard.py
+│   ├── data_generator.py
+│
+├── detector.py
+├── data/
+│   ├── logs.csv
+│   ├── incidents.csv
+│
+├── requirements.txt
+├── README.md
+
+📸 Dashboard Preview
+
+
+
+
+🧠 Key Learnings
+SOC (Security Operations Center) fundamentals
+Log-based anomaly detection
+Time-series analysis for cybersecurity
+Real-time dashboard design using Streamlit
+Risk scoring systems in security monitoring
+
+🚀 Future Improvements
+🔴 Machine Learning anomaly detection (Isolation Forest)
+🌍 Real IP geolocation API integration
+⚡ Kafka-based real-time streaming logs
+🧾 Database integration (PostgreSQL)
+🔐 User authentication system
+📡 Live attack simulation engine
+👨‍💻 Author
+
+Aiswaryaa Ramesh
+Cybersecurity & Data Analytics Project
+Built for learning SOC systems and log monitoring pipelines.
+
+
+
+
+
